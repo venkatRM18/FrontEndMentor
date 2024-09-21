@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SOCIAL-LINKS-PROFILE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      font-family: Inter;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .social-links {
+      width: 400px;
+      margin: auto;
+      margin-top: 5%;
+      margin-bottom: 2px;
+      background-color: hsl(0, 0%, 12%);
+      text-align: center;
+      border-radius: 15px;
+      padding-top: 3%;
+      padding-bottom: 20px;
+    }
+
+    .profile {
+      width: 100px;
+      border-radius: 50px;
+    }
+
+    h2 {
+      font-size: 30px;
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 0;
+    }
+
+    .country {
+      margin: 0px;
+      font-size: 16px;
+      font-weight: bold;
+      color: hsl(75, 94%, 57%);
+      margin-top: 8px;
+      margin-bottom: 20px;
+    }
+
+    .designation {
+      font-size: 14px;
+      color: hsl(0, 0%, 100%);
+      margin-bottom: 25px;
+    }
+
+    button {
+      display: block;
+      margin: auto;
+      margin-bottom: 15px;
+      height: 50px;
+      width: 80%;
+      border-radius: 12px;
+      border: none;
+      font-weight: bold;
+      background-color: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      transition: background-color 0.15s;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 0%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="social-links">
+    <img class="profile" src="avatar-jessica.jpeg" alt="user-image">
+    <h2>Jessica Randall</h2>
+    <p class="country">London, United Kingdom</p>
+    <p class="designation">"Front-end developer and avid reader."</p>
+    <button>GitHub</button>
+    <button>Frontend Mentor</button>
+    <button>LinkedIn</button>
+    <button>Twitter</button>
+    <button>Instagram</button>
+  </div>
+</body>
+
+</html>
